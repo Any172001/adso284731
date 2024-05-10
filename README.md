@@ -4,7 +4,7 @@
 
 ---
 
-![Gato](https://tinyurl.com/57xha2nw)
+![Gato](https://tinyurl.com/yredxhdc)
 
 | # | Topic       | Description        |
 |---| ---         | ---                |
