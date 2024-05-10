@@ -4,7 +4,7 @@
 
 ---
 
-![Gato](https://tinyurl.com/4kb8nmbv)
+![Perro](https://tinyurl.com/4kb8nmbv)
 
 | # | Topic       | Description        |
 |---| ---         | ---                |
