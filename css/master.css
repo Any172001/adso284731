@@ -80,25 +80,26 @@ body {
 nav{
     border: 2px solid #fff9;
     border-radius: 4px;
-padding: 8px;
-position: fixed;
-top: 20px;
-left: 20px;
-transition: all 0.4s ease-in;
-a:is(:link, :visited) {
-svg{
-opacity: .7;
-height:32px;
-width: 32px;
+    padding: 8px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transition: all 0.4s ease-in;
+    a:is(:link, :visited) {
+        transition: all 0.4s ease-in;
+    svg {
+        opacity: .7;
+        height:32px;
+        width: 32px;
 
     }
 }
+
 a:is(:hover){
-    background-color: #000;
-    transform: translateX(-10px);
+    transform: translateX(-10px) scale(5);
 }
 }
-nav:is(hover) {
+nav:is(:hover)  {
     transform:translateX(-4px)
 }
 main {
