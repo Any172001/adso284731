@@ -1,0 +1,88 @@
+/* - - - - - - - - - - 
+F o n t s
+- - - - - - - - - - */
+@import url('fonts.css');
+/* - - - - - - - - - - 
+R e s e t
+- - - - - - - - - - */
+@import url('reset.css');
+/* - - - - - - - - - - 
+V a r i a b l e s
+- - - - - - - - - - */
+:root {
+    --font-heading: 'explora';
+    --font-body: 'Marcellus';
+    --color1: #A44C83;
+    --color2: #C91926;
+    --color3: #F9F9F9;
+    --color4: #200134;
+    --color5: #C3404A;
+    --color6: #5E102B;
+}
+/* - - - - - - - - - - 
+G E N E R A L
+- - - - - - - - - - */
+body {
+background-color: var(--color1);
+color: var(--color3);
+}
+
+main{
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 0.4rem;
+        height: 100px;
+        img {
+        transition: transform 0.4s ease-in;
+        width: 220px;
+}
+    }
+    
+    nav {
+        display: flex;
+        gap: 1rem;
+        a:is(:link, :visited){
+            background-color: #C91926;
+            color: var(--color3);
+            font-family: var(--font-heading);
+            text-decoration: none;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease-in;
+            align-items: center;
+            width: 178px;
+        }
+        a:is(:hover) {
+            transform: scale(1.1);
+        }
+    }
+}
+section.slider {
+height: 604px;
+div.owl-nav{
+background-color: #F9F9F9;
+display: flex;
+justify-content: space-between;
+position: absolute;
+width: 100%;
+top: 50% ;
+button.owl-prev{
+    span{
+        
+    }
+}
+button.owl-next{
+span{
+
+
+
+            }
+
+        }
+
+    }
+
+}
